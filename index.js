@@ -21,10 +21,7 @@ function calculateProfitAndLoss(initial, quantity, current){
     else{
         output.innerText=("no pain no gain no gain no pain")
     }
-
 }
-
-
 
 function clickHandler(){
     var ip = Number(initialPrice.value);
@@ -34,7 +31,7 @@ function clickHandler(){
     if(ip&&qua&&op){
     calculateProfitAndLoss(ip, qua, op)
     }else{
-        output.innerText=("please fill all th Fields")
+        output.innerText=("please fill all the Fields")
     }
 }
 
